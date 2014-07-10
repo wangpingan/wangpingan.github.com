@@ -1,0 +1,25 @@
+permalink: /:title
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+pygments: true
+markdown: kramdown
+
+title : 深圳律师在线解答
+tagline : 
+author : 
+  name : wangpingan
+  email : blah@email.test
+  github : wangpingan
+  twitter : username
+  feedburner : feedname
+
+production_url : http://wangpingan.github.io
+
+JB :
+  version : 0.3.0
+  BASE_PATH : false
+  ASSET_PATH : false
+  archive_path: /archive.html
+  categories_path : /categories.html
+  tags_path : /tags.html
+  atom_path : /atom.xml
+  rss_path : /rss.xml
